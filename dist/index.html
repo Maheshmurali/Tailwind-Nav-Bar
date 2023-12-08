@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="bg-yellow-300">
+    <nav class="p-7 bg-white shadow md:flex justify-between">
+        <div class="flex justify-between items-center">
+            <span class="yext-2xl font[poppins]">
+            <img class="h-20 inline" src="https://img.freepik.com/free-vector/colorful-bird-illustration-gradient_343694-1741.jpg?w=740&t=st=1701498610~exp=1701499210~hmac=c6a51f599155470436ef5c6fced604f2d1f4ccb0ac529755065f16cfe067ea6b" alt="">
+            LOGO</span>
+            <span class="text-4xl cursor-pointer mx-2 md:hidden" name="menu" onclick="menu(this)">&#8801;</span>
+            
+
+        </div>
+
+        <ul class="md:flex items-center coursor-pointer z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto
+        md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[100px] transition-all">
+            <li class="mx-4 my-6 md:my-0"> 
+                <a class="text-xl hover:text-yellow-300 duration-500" href="#">Home</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a class="text-xl hover:text-yellow-300 duration-500" href="#">About</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a class="text-xl hover:text-yellow-300 duration-500" href="#">Service</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a class="text-xl hover:text-yellow-300 duration-500" href="#">Products</a>
+            </li>
+            <button class="bg-yellow-300  rounded-lg px-6 py-2 mx-4 text-white hover:text-black shadow duration-500 hover:bg-yellow-200">Login</button>
+        </ul>
+    </nav>
+    <script src="script.js"></script>
+</body>
+</html>
